@@ -1,0 +1,62 @@
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: 3px solid blue;
+    position: relative;
+    top:50px;
+    margin: auto;
+    width:75%;
+    height:60vh;
+    background-color: white;
+}
+.question div:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.contain div,pre{ 
+    background-color: white;
+}
+
+.answer > button{
+    cursor: pointer;
+    display: inline-block;
+    margin:10px 0px 25px 50px;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 50px;
+    width:400px;
+    height: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.buttons> button{
+    cursor: pointer;
+    margin-left: 30px;
+    outline: none;
+    border:1px solid black;
+    width:100px;
+    height:30px;
+    color: white;
+}
+.buttons button:first-child{
+    background-color: rgb(23, 166, 209);
+}
+.buttons button:last-child{
+    background-color:red;
+}
+.buttons button:nth-child(2){
+    background-color: green;
+}
+.question>pre{
+    font-family: 'Times New Roman', Times, serif;
+}
+pre>span{
+    background-color: white;
+}
